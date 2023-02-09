@@ -8,7 +8,7 @@ int A2Dconverter(int MaxAmp,int A2DValue,int BitResolution)
   
   if(A2DValue <= MaxA2DValue)
   {
-    float ConvertedValue = (float)MaxAmp * (float)A2DValue / (float)MaxA2DValue;
+    float ConvertedValue = (float)MaxAmp * (float)A2DValue / (float)MaxA2DValue;//convert
     Ampere = round(ConvertedValue);
   }
   return Ampere;
