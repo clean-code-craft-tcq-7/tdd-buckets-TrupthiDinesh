@@ -56,6 +56,7 @@ char *getrangeincsvformat(range *rangelist, int index){
     sprintf(s3, "%d", (rangelist[index].rangecount));
     char *string1 = strcat(s1,"-");
     char *string2 = strcat(string1, s2);
+    
     char *string3 = strcat(string2, ", ");
     char *string4 = strcat(string3, s3);
     return string4;
